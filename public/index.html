@@ -25,6 +25,87 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .header {
+        width: 100%;
+        height: 120px;
+        background-color: #000;
+      }
+
+      .container {
+        width: 1200px;
+        margin: auto;
+      }
+
+      .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+
+      .logo-dbg {
+        background: url('./imgs/logo-dbg.png') center;
+        background-size: 140px 110px;
+        width: 100px;
+        height: 100px;
+      }
+
+      .nav-bar {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav-bar li a{
+        text-decoration: none;
+        margin: 0 50px;
+        color: #fff;
+        font-size: 1.3rem;
+      }
+
+      /* Hero */
+
+      .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero-title {
+        color: #fff;
+        font-size: 5rem;
+      }
+
+      .hero-paragraph {
+        color: #fff;
+        font-size: 1.2rem;
+        width: 950px;
+        margin-top: 60px;
+        line-height: 2rem;
+        text-align: center;
+      }
+
+      .hero-img {
+        background: url('./imgs//hero-img.png');
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+      }
+
+      
+
+
+
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
